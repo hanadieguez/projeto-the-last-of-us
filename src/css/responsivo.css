@@ -18,6 +18,10 @@
 }
 
 @media (width <= 425px) {
+  body {
+    padding: 40px;
+  }
+
   .informacoes .logo {
     max-width: 300px;
   }
@@ -42,7 +46,15 @@
     gap: 50px;
   }
 
-  body {
-    padding: 40px;
+  .informacoes .descricao {
+    font-size: 20px;
+  }
+
+  .botoes-carrossel {
+    gap: 30px;
+  }
+
+  .botao {
+    padding: 10px;
   }
 }
