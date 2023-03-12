@@ -9,6 +9,8 @@
   // passo 6 - fazer aparecer a imagem de fundo correspondente ao botão clicado
 */
 
+alert("Largura real visível: " + window.screen.availWidth);
+
 const botoesCarrossel = document.querySelectorAll(".botao");
 const imagensCarrossel = document.querySelectorAll(".imagem");
 
