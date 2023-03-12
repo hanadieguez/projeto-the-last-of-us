@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -12,54 +12,53 @@
 
   <link rel="stylesheet" href="./src/css/style.css">
 
-  <title>The Last of Us - Série</title>
+  <title>Green Netflix</title>
 </head>
 
 <body>
+  <!-- 
+    O OBJETIVO É CRIAR UMA PÁGINA QUE ALTERE IMAGENS DE FUNDO DE ACORDO COM O BOTÃO APERTADO ABAIXO
+  -->
   <script defer src="./src/js/index.js"></script>
 
   <main>
-    <div class="carrossel">
-      <img src="./src/img/tlou-1.jpg" alt="Ellie e Joel abraçados" class="imagem ativa">
-      <img src="./src/img/tlou-2.jpg" alt="Ellie e Joel" class="imagem">
-      <img src="./src/img/tlou-3.jpg" alt="Joel olhando pela janela" class="imagem">
-      <img src="./src/img/tlou-4.jpg" alt="Ellie e Tess se olhando" class="imagem">
-      <img src="./src/img/tlou-5.jpg" alt="Ellie e Joel caminhando em cidade destruída" class="imagem">
-      <img src="./src/img/tlou-6.jpg" alt="Joel segurando uma lanterna" class="imagem">
+    <div class="backgrounds-group">
+      <img src="./src/img/tlou-1.jpg" alt="Joel e Ellie" class="image show">
+      <img src="./src/img/tlou-2.jpg" alt="Joel e Ellie" class="image">
+      <img src="./src/img/tlou-3.jpg" alt="Joel olhando pela janela" class="image">
+      <img src="./src/img/tlou-4.jpg" alt="Ellie e Tess" class="image">
+      <img src="./src/img/tlou-5.jpg" alt="Joel e Ellie andando por uma cidade destruída" class="image">
+      <img src="./src/img/tlou-6.jpg" alt="Joel segurando uma lanterna" class="image">
     </div>
 
-    <div class="conteudo">
-      <article class="informacoes">
-        <img src="./src/img/logo.png" alt="logo the last of us" class="logo">
-        <p class="descricao">The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.</p>
-      </article>
+    <div class="content">
+      <div class="content__serie">
+        <img src="./src/img/logo.png" alt="Logo The Last of Us" class="serie__logo">
+        <p class="serie__description">The Last of Us é uma série distópica da HBO baseada na franquia de jogos de videogame de mesmo nome criada Neil Druckmann. O drama narra um futuro pandêmico que foi devastador para humanidade, deixando os seres humanos à beira da extinção.</p>
+      </div>
 
-      <div class="botoes-carrossel">
-        <button class="botao selecionado"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
-        <button class="botao"></button>
+
+      <div class="buttons-group">
+        <button class="button actived"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
+        <button class="button"></button>
       </div>
     </div>
-
-    <aside class="menu-lateral">
-      <ul>
-        <li>
-          <a href="#" target="_blank">
-            <img src="./src/img/github.svg" alt="ícone GitHub" class="icone">
-          </a>
-        </li>
-        <li>
-          <a href="#" target="_blank">
-            <img src="./src/img/linkedin-in.svg" alt="ícone LinkedIn" class="icone">
-          </a>
-        </li>
-      </ul>
-
-    </aside>
   </main>
+
+  <aside class="networking">
+    <ul>
+      <li>
+        <img src="./src/img/github.svg" alt="Ícone GitHub" class="ico">
+      </li>
+      <li>
+        <img src="./src/img/linkedin-in.svg" alt="Ícone LinkedIn" class="ico">
+      </li>
+    </ul>
+  </aside>
 </body>
 
 </html>
